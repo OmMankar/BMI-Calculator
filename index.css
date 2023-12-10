@@ -1,6 +1,7 @@
 body{
     background: linear-gradient(45deg, #04364A, black);
-    font: small-caps bold 16px/2 cursive;
+    font-family: 'Playpen Sans', cursive;
+   
     color: white;
 }
 .OuterBox{
@@ -13,22 +14,22 @@ body{
 }
 .theroy{
     width: 50%;
-    height: 100vh;
+    height: 700px;
 }
 
 .calculation{
     display: flex;
     justify-content: center;
-    align-items:center;
+    margin-top: 100px;
     background-color: transparent;
     width: 50%;
-    height: 100vh;
+    height: 700px;
 }
 
 .Box{
     
-    height: auto;
-    width: auto;
+    height: 225px;
+    width: 200px;
     padding: 10px;
     border:2px double #64CCC5;
     border-radius: 10px;
@@ -48,7 +49,9 @@ button{
     border:2px solid #64CCC5;
     background-color: #176B87;
     box-shadow:2px 2px 5px  #64CCC5;
-    font: small-caps bold 16px/2 cursive;
+    font-family: 'Playpen Sans', cursive;
+    font-weight: bold;
+   
 }
 
 .InputBox{
@@ -67,7 +70,7 @@ input{
     border-radius: 10px;
     background-color: white;
     color: black;
-    font: small-caps bold 16px/2 cursive;
+    font-family: 'Playpen Sans', cursive;
     
 }
 
@@ -84,6 +87,7 @@ input::placeholder{
 
 h1{
     text-align: center;
+    
 }
 
 .glow{
