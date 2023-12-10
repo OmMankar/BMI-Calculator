@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Mass Index</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header><h1>BMI CALCULATOR</h1></header>
+    <div class="OuterBox">
+        <div class="theroy">
+        
+        <p>Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women. View the BMI tables or use the tool below to compute yours.</p>   
+        <ul>
+        <li>Enter your weight and height using standard or metric measures.</li>
+        <li>Select "Compute BMI" and your BMI will appear below.</li>
+        </ul>
+        <input type="text" placeholder="RESULT" id="Result">
+                    <h2>BMI Categories:</h2>
+        <ul>
+        <li>Underweight = <18.5 📉 </li>
+        <li>Normal weight = 18.5–24.9 📊</li>
+        <li>Overweight = 25–29.9 📈</li>
+        <li>Obesity = BMI of 30 or greater 🚫</li>
+        </ul>
+        
+
+        </div>
+        <div class="calculation">
+        <div class="Box">
+        <div class="Dimension">
+            <button class="Standard">STANDARD</button>
+            <button class="metric">METRIC</button>
+        </div>
+        <div class="InputBox">
+            <input type="text" placeholder="Height" id="heightInputBox">
+            
+            <input type="text" placeholder="Weight" id="weightInputBox">
+           
+            
+        </div>
+        <div class="reset_result">
+            <button class="result">CALCULATE</button>
+            <button  type="reset">RESET</button>
+        </div>  
+        
+        
+        </div>
+    </div>
+    </div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>

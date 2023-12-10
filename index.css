@@ -1,0 +1,91 @@
+body{
+    background: linear-gradient(45deg, #04364A, black);
+    font: italic small-caps bold 16px/2 cursive;
+    color: white;
+}
+.OuterBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: auto;
+    
+}
+.theroy{
+    width: 50%;
+    height: 100vh;
+}
+
+.calculation{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: transparent;
+    width: 50%;
+    height: 100vh;
+}
+
+.Box{
+    
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border:2px double #64CCC5;
+    border-radius: 10px;
+    box-shadow:2px 2px 5px  #64CCC5;
+    background: linear-gradient(45deg, #04364A, black);;   
+}
+
+.Dimension{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button{
+    padding: 5%;
+    border-radius: 10px;
+    border:2px solid #64CCC5;
+    background-color: #176B87;
+    box-shadow:2px 2px 5px  #64CCC5;
+    font: italic small-caps bold 16px/2 cursive;
+}
+
+.InputBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    gap: 10px;   
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font: italic small-caps bold 16px/2 cursive;
+    
+}
+
+.reset_result{
+    display: flex;;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+input::placeholder{
+    text-align: center; 
+}
+
+h1{
+    text-align: center;
+}
+
+.glow{
+    color: yellow;
+}
