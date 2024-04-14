@@ -34,7 +34,7 @@ The result is categorized, indicating whether the BMI is within a healthy range.
 ## Future Enhancements:
 
 + **Multi-Unit Support:**
-Add the ability for users to switch between different units for height and weight (e.g., metric and imperial).
+Add the ability for users to switch between different units for height and weights and some others (e.g., metric and imperial).
 
 + **User Profiles:**
 Allow users to create profiles and save their BMI data for tracking changes over time.
@@ -44,3 +44,4 @@ Incorporate charts or graphs to visualize BMI trends and changes.
 
 ## Conclusion:
 The BMI Calculator project provides a simple yet effective tool for users to assess their body mass index and gain insights into their overall health. It serves as a practical resource for individuals seeking to maintain a healthy lifestyle.
+
